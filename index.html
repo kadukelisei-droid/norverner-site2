@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nor Verner — official web novel site for reading chapters, exploring lore, browsing art, and joining the Discord community." />
+  <meta property="og:title" content="Nor Verner | Novel" />
+  <meta property="og:description" content="Web novel world of Nor Verner: chapters, characters, art, and community." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1522845003594-8d7e0f1b6f41?auto=format&fit=crop&w=1200&q=80" />
+  <title>Nor Verner | Web Novel</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">norverner.com</div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#chapters">Chapters</a>
+        <a href="#characters">Characters</a>
+        <a href="#powers">Power System</a>
+        <a href="#world">World</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#discord">Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">Official Novel Site</span>
+          <h1>Nor Verner</h1>
+          <p class="hero-description">A dark modern fantasy saga of creation, destruction, and the struggle for power within the Miron Empire.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="chapter.html?id=1">Read Now</a>
+            <a class="button secondary" href="#discord">Join Discord</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="card stat-card">
+            <span>Latest chapter</span>
+            <strong id="latestChapter">Chapter 1</strong>
+          </div>
+          <div class="card stat-card">
+            <span>Total chapters</span>
+            <strong id="totalChapters">0</strong>
+          </div>
+          <div class="card stat-card">
+            <span>Total words</span>
+            <strong id="totalWords">0</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="updates">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Latest updates</p>
+          <h2>Current releases & announcements</h2>
+        </div>
+      </div>
+      <div id="updatesList" class="grid cards-grid"></div>
+    </section>
+
+    <section class="section alt-bg" id="chapters">
+      <div class="section container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Chapters</p>
+            <h2>Read the story</h2>
+          </div>
+          <a class="small-link" href="#gallery">Explore artwork</a>
+        </div>
+        <div id="chapterList" class="grid list-grid"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="characters">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Characters</p>
+          <h2>Profiles of key figures</h2>
+        </div>
+      </div>
+      <div id="characterGrid" class="grid cards-grid"></div>
+    </section>
+
+    <section class="section alt-bg" id="powers">
+      <div class="section container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Power System</p>
+            <h2>Mana, ranks and elements</h2>
+          </div>
+        </div>
+        <div class="power-grid">
+          <article class="power-card">
+            <h3>Mana</h3>
+            <p>Mana is the mysterious life force that empowers combat, magic, and the soul of the Miron Empire. It can be shaped, felt, and mastered through training and insight.</p>
+          </article>
+          <article class="power-card">
+            <h3>Ranks</h3>
+            <p>Every cultivator rises through distinct stages. Each rank grants stronger abilities, greater influence, and a deeper connection to elemental power.</p>
+          </article>
+          <article class="power-card">
+            <h3>Elements</h3>
+            <p>Fire, Water, Earth, Wind, Lightning, Darkness, Light, and more. Elements define a user's style, strengths, and the way they shape the battlefield.</p>
+          </article>
+          <article class="power-card">
+            <h3>Creation & Destruction</h3>
+            <p>Nor Verner may wield both Creation and Destruction mana, or a unique fusion of both. This duality is the heart of the story&apos;s evolving threat.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="world">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">World</p>
+          <h2>Realm, empire and academy</h2>
+        </div>
+      </div>
+      <div class="world-grid">
+        <article class="world-card">
+          <h3>Miron Empire</h3>
+          <p>A sprawling empire shaped by politics, legend, and the rule of a powerful sovereign. The Miron Empire is home to intrigue, rivalry, and hidden history.</p>
+        </article>
+        <article class="world-card">
+          <h3>Academy</h3>
+          <p>The central institution for aspiring warriors and mages. Admission is rare, training is brutal, and every student learns that power has a price.</p>
+        </article>
+        <article class="world-card">
+          <h3>Locations</h3>
+          <p>From capital cities to lost landmarks, this world contains vivid locations that shape the journey of Nor and their allies.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="gallery">
+      <div class="section container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2>Artwork & illustrations</h2>
+          </div>
+        </div>
+        <div id="galleryGrid" class="grid cards-grid"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="discord">
+      <div class="discord-panel">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h2>Join the Discord server</h2>
+          <p>Discuss chapters, share fan art, get news, and meet other readers. The Discord hub is the community heart of Nor Verner.</p>
+        </div>
+        <a class="button primary" href="https://discord.gg/PLACEHOLDER" target="_blank" rel="noreferrer">Open Discord</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>norverner.com — A web novel destination for chapters, lore, and art.</p>
+      <p>Built for fast loading, mobile devices, and immersive reading.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
