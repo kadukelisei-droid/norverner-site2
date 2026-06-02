@@ -462,8 +462,9 @@ h1 {
 }
 .hero-content{
     display:flex;
-    align-items:center;
-    gap:50px;
+    flex-direction:row;
+    align-items:flex-start;
+    gap:60px;
 }
 
 .hero-cover img{
@@ -495,4 +496,34 @@ h1 {
     padding:18px 32px !important;
     border:1px solid rgba(255,255,255,.25) !important;
     background:rgba(255,255,255,.06) !important;
+}
+.hero-copy{
+    flex:1;
+}
+
+.hero-cover img{
+    width:300px;
+    border-radius:15px;
+}
+
+.hero-actions{
+    margin-top:30px;
+}
+
+.button.primary{
+    background:#8b5cf6 !important;
+    color:#fff !important;
+    font-weight:700;
+    font-size:20px;
+    padding:18px 38px;
+    border:none;
+    box-shadow:0 0 25px rgba(139,92,246,.6);
+}
+
+.button.secondary{
+    background:rgba(255,255,255,.08);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.2);
+    font-size:20px;
+    padding:18px 38px;
 }
