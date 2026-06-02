@@ -534,3 +534,23 @@ h3 {
   }
 }
 ```
+.hero,
+.hero *{
+  color:white !important;
+}
+
+.hero-description{
+  color:rgba(255,255,255,.78) !important;
+}
+
+.card{
+  background:rgba(18,24,36,.95) !important;
+}
+
+.card span{
+  color:rgba(255,255,255,.6) !important;
+}
+
+.card strong{
+  color:white !important;
+}
