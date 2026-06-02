@@ -461,10 +461,10 @@ h1 {
   }
 }
 .hero-content{
-    display:flex;
-    flex-direction:row;
-    align-items:flex-start;
-    gap:60px;
+    display:grid;
+    grid-template-columns:300px 1fr 260px;
+    gap:50px;
+    align-items:start;
 }
 
 .hero-cover img{
