@@ -12,11 +12,11 @@
   box-sizing: border-box;
   }
 
-body {
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-background: #ffffff;
-color: var(--text);
+body{
+    margin:0;
+    background:#050510;
+    color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -71,9 +71,11 @@ color: var(--blue);
 
 /* HERO — WEBNOVEL STYLE */
 
-.hero {
-background: var(--page);
-padding: 42px 0 0;
+.hero{
+    background:
+    radial-gradient(circle at 20% 20%, rgba(139,92,246,.45), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(59,130,246,.18), transparent 30%),
+    linear-gradient(135deg,#090915 0%,#050510 100%);
 }
 
 .hero-overlay {
@@ -191,13 +193,14 @@ font-weight: 600;
 
 /* SECTIONS */
 
-.section {
-padding: 50px 0;
-background: #ffffff;
+.section{
+    background:#050510;
+    color:white;
+    padding:60px 0;
 }
 
-.alt-bg {
-background: #ffffff;
+.alt-bg{
+    background:#0a0a18;
 }
 
 .section-header {
@@ -402,4 +405,25 @@ align-items: flex-start;
 flex-wrap: wrap;
 gap: 12px;
 }
+}
+h1,h2,h3,h4,h5,h6{
+    color:white !important;
+}
+
+p{
+    color:rgba(255,255,255,.8);
+}
+
+.section-header h2{
+    color:white !important;
+}
+.card,
+.update-card,
+.character-card,
+.gallery-card,
+.power-card,
+.world-card{
+    background:rgba(14,18,35,.9);
+    border:1px solid rgba(255,255,255,.08);
+    color:white;
 }
