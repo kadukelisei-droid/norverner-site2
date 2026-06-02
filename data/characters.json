@@ -1,25 +1,27 @@
-[
+```json
+{
+  "name": "Nor Verner",
+  "image": "Images/characters/Imagescharacters Nor Verner.png",
+  "status": "Alive",
+  "age": "17",
+  "level": "989",
+  "stage": "Supreme",
+  "potential": "∞",
+  "combatPower": "93,217,600",
+  "skills": "None",
+  "description": "A young man who accidentally killed Dark Heavens Overlord Rodon and awakened the System."
+}
+```
+
   {
-    "name": "Nor Verner",
-    "age": "19",
-    "rank": "Adept",
-    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-    "bio": "The protagonist caught between creation and destruction mana. A complex figure navigating politics and power.",
-    "abilities": ["Creation Mana", "Destruction Mana", "Adaptive Combat"],
-    "relations": ["Orlan", "Edora", "Klaus"]
+    "name": "Orlan Void",
+    "image": "Images/characters/Imagescharacters Orlan Void.png"
+    "age": "50",
+    "Stage": "Lord",
   },
   {
-    "name": "Orlan",
-    "age": "24",
-    "rank": "High Scholar",
-    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-    "bio": "A talented strategist and ally who understands the inner workings of the academy.",
-    "abilities": ["Tactical Insight", "Wind Control"],
-    "relations": ["Nor Verner", "Klaus"]
-  },
-  {
-    "name": "Edora",
-    "age": "22",
+    "name": "Edora Grey",
+    "age": "47",
     "rank": "Elite Guard",
     "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
     "bio": "A fierce defender with strong ties to the empire's ruling council.",
