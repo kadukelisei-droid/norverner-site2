@@ -4,21 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Nor Verner — official web novel site for reading chapters, exploring lore, browsing art, and joining the Discord community." />
-  <meta property="og:title" content="Nor Verner | Novel" />
-  <meta property="og:description" content="Web novel world of Nor Verner: chapters, characters, art, and community." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="Images/cover.png" />
-  <title>Nor Verner | Web Novel</title>
+  <title>I Became The Strongest In One Day | Nor Verner</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <div class="brand">norverner.com</div>
+      <div class="brand">NORVERNER.COM</div>
 
-      <nav class="nav-links" aria-label="Main navigation">
+      <nav class="nav-links">
         <a href="#home">Home</a>
         <a href="#chapters">Chapters</a>
         <a href="#characters">Characters</a>
@@ -32,49 +27,76 @@
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-
       <div class="container hero-content">
+
         <div class="hero-cover">
           <img src="Images/cover.png" alt="I Became The Strongest In One Day" />
         </div>
 
         <div class="hero-copy">
-          <span class="eyebrow">Official Novel Site</span>
+          <span class="eyebrow">ORIGINAL</span>
 
           <h1>I Became The Strongest In One Day</h1>
 
-          <p class="hero-description">
-            Running from the wolf, Nor stumbled and fell. Caught by the beast,
-            he grabbed a stone in desperation and hurled it straight at its head.
-            From that moment on, his life changed forever.
-            <br><br>
-            Will he be able to control the power he was given... or will he become
-            a catastrophe the world has never seen?
+          <div class="hero-stats">
+            <div class="card stat-card">
+              <strong>Fantasy</strong>
+            </div>
+
+            <div class="card stat-card">
+              <strong>1 Chapter</strong>
+            </div>
+
+            <div class="card stat-card">
+              <strong>966 Words</strong>
+            </div>
+          </div>
+
+          <p class="author-line">
+            Author: <span>EliseyKaduk</span>
           </p>
 
+          <div class="rating-line">
+            <span class="stars">★★★★★</span>
+            <span>Not enough ratings</span>
+          </div>
+
           <div class="hero-actions">
-            <a class="button primary" href="Chapters/chapter-1.html">Read Now</a>
-            <a class="button secondary" href="#discord">Join Discord</a>
+            <a class="button primary" href="Chapters/chapter-1.html">CONTINUE READING</a>
+            <a class="button secondary" href="#discord">+ ADD TO LIBRARY</a>
           </div>
         </div>
 
-        <div class="hero-stats">
-          <div class="card stat-card">
-            <span>Latest chapter</span>
-            <strong id="latestChapter">Chapter 1</strong>
-          </div>
+      </div>
+    </section>
 
-          <div class="card stat-card">
-            <span>Total chapters</span>
-            <strong id="totalChapters">1</strong>
-          </div>
+    <section class="novel-tabs">
+      <div class="container">
+        <a class="tab active" href="#about">About</a>
+        <span class="tab-divider">|</span>
+        <a class="tab" href="#chapters">Table of Contents</a>
+      </div>
+    </section>
 
-          <div class="card stat-card">
-            <span>Total words</span>
-            <strong id="totalWords">966</strong>
-          </div>
-        </div>
+    <section class="section container" id="about">
+      <div class="about-block">
+        <h2>Synopsis</h2>
+
+        <p>
+          Running from the wolf, Nor stumbled and fell. Caught by the beast,
+          he grabbed a stone in desperation and hurled it straight at its head.
+        </p>
+
+        <p>
+          From that moment on, his life changed forever.
+        </p>
+
+        <p>
+          Will he be able to control the power he was given... or will he become
+          a catastrophe the world has never seen?
+        </p>
+
+        <p class="audience">ⓘ General Audiences</p>
       </div>
     </section>
 
@@ -89,19 +111,15 @@
       <div id="updatesList" class="grid cards-grid"></div>
     </section>
 
-    <section class="section alt-bg" id="chapters">
-      <div class="section container">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Chapters</p>
-            <h2>Read the story</h2>
-          </div>
-
-          <a class="small-link" href="#gallery">Explore artwork</a>
+    <section class="section container" id="chapters">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Chapters</p>
+          <h2>Read the story</h2>
         </div>
-
-        <div id="chapterList" class="grid list-grid"></div>
       </div>
+
+      <div id="chapterList" class="grid list-grid"></div>
     </section>
 
     <section class="section container" id="characters">
@@ -115,36 +133,34 @@
       <div id="characterGrid" class="grid cards-grid"></div>
     </section>
 
-    <section class="section alt-bg" id="powers">
-      <div class="section container">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Power System</p>
-            <h2>Mana, ranks and elements</h2>
-          </div>
+    <section class="section container" id="powers">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Power System</p>
+          <h2>Mana, ranks and elements</h2>
         </div>
+      </div>
 
-        <div class="power-grid">
-          <article class="power-card">
-            <h3>Mana</h3>
-            <p>Mana is the mysterious life force that empowers combat, magic, and the soul of the Miron Empire. It can be shaped, felt, and mastered through training and insight.</p>
-          </article>
+      <div class="power-grid">
+        <article class="power-card">
+          <h3>Mana</h3>
+          <p>Mana is the mysterious life force that empowers combat, magic, and the soul.</p>
+        </article>
 
-          <article class="power-card">
-            <h3>Ranks</h3>
-            <p>Every cultivator rises through distinct stages. Each rank grants stronger abilities, greater influence, and a deeper connection to elemental power.</p>
-          </article>
+        <article class="power-card">
+          <h3>Ranks</h3>
+          <p>Every cultivator rises through distinct stages, gaining stronger abilities and influence.</p>
+        </article>
 
-          <article class="power-card">
-            <h3>Elements</h3>
-            <p>Fire, Water, Earth, Wind, Lightning, Darkness, Light, and more. Elements define a user's style, strengths, and the way they shape the battlefield.</p>
-          </article>
+        <article class="power-card">
+          <h3>Elements</h3>
+          <p>Fire, Water, Earth, Wind, Lightning, Darkness, Light, and more.</p>
+        </article>
 
-          <article class="power-card">
-            <h3>Creation & Destruction</h3>
-            <p>Nor Verner may wield both Creation and Destruction mana, or a unique fusion of both. This duality is the heart of the story&apos;s evolving threat.</p>
-          </article>
-        </div>
+        <article class="power-card">
+          <h3>Creation & Destruction</h3>
+          <p>Nor Verner may wield a unique fusion of both forces.</p>
+        </article>
       </div>
     </section>
 
@@ -159,32 +175,30 @@
       <div class="world-grid">
         <article class="world-card">
           <h3>Miron Empire</h3>
-          <p>A sprawling empire shaped by politics, legend, and the rule of a powerful sovereign. The Miron Empire is home to intrigue, rivalry, and hidden history.</p>
+          <p>A sprawling empire shaped by politics, legend, and hidden history.</p>
         </article>
 
         <article class="world-card">
           <h3>Academy</h3>
-          <p>The central institution for aspiring warriors and mages. Admission is rare, training is brutal, and every student learns that power has a price.</p>
+          <p>The central institution for aspiring warriors and mages.</p>
         </article>
 
         <article class="world-card">
           <h3>Locations</h3>
-          <p>From capital cities to lost landmarks, this world contains vivid locations that shape the journey of Nor and their allies.</p>
+          <p>Capital cities, lost landmarks, forests, academies, and forbidden territories.</p>
         </article>
       </div>
     </section>
 
-    <section class="section alt-bg" id="gallery">
-      <div class="section container">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Gallery</p>
-            <h2>Artwork & illustrations</h2>
-          </div>
+    <section class="section container" id="gallery">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h2>Artwork & illustrations</h2>
         </div>
-
-        <div id="galleryGrid" class="grid cards-grid"></div>
       </div>
+
+      <div id="galleryGrid" class="grid cards-grid"></div>
     </section>
 
     <section class="section container" id="discord">
@@ -192,7 +206,7 @@
         <div>
           <p class="eyebrow">Community</p>
           <h2>Join the Discord server</h2>
-          <p>Discuss chapters, share fan art, get news, and meet other readers. The Discord hub is the community heart of Nor Verner.</p>
+          <p>Discuss chapters, share fan art, get news, and meet other readers.</p>
         </div>
 
         <a class="button primary" href="https://discord.gg/PLACEHOLDER" target="_blank" rel="noreferrer">Open Discord</a>
@@ -202,8 +216,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>norverner.com — A web novel destination for chapters, lore, and art.</p>
-      <p>Built for fast loading, mobile devices, and immersive reading.</p>
+      <p>norverner.com — Official novel website.</p>
+      <p>Built for chapters, lore, art, and community.</p>
     </div>
   </footer>
 
