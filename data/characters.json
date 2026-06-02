@@ -16,13 +16,12 @@
     "image": "Images/characters/Imagescharacters Orlan Void.png",
     "status": "Alive",
     "age": "50",
-    "level": "-",
+    "level": "101",
     "stage": "Lord",
-    "potential": "-",
-    "combatPower": "-",
-    "additionalPoints": "-",
+    "potential": "Great King",
+    "combatPower": "79 000",
     "skills": "Unknown",
-    "description": "A powerful figure connected to Nor Verner."
+    "description": "Vice-Captain of the Ravenport Guild Branch and a relative of Opus Void. Easygoing and humorous on the surface, but far more intelligent and observant than most people realize."
   },
   {
     "name": "Edora Grey",
@@ -33,20 +32,11 @@
     "stage": "Elite Guard",
     "potential": "Imperator",
     "combatPower": "91 000",
-    "skills": "",
     "description": "Captain of the Ravenport Guild Branch. Strict, elegant, and dependable."
   },
   {
     "name": "Chuck",
     "image": "Images/characters/map.png",
-    "status": "Alive",
-    "age": "97",
-    "level": "-",
-    "stage": "Commander",
-    "potential": "-",
-    "combatPower": "-",
-    "additionalPoints": "-",
-    "skills": "Reinforced Defense, Mana Suppression",
     "description": "A battle-hardened commander who balances loyalty to the empire with a fascination for rare mana phenomena."
   },
   {
@@ -58,8 +48,6 @@
     "stage": "Shadow Enforcer",
     "potential": "-",
     "combatPower": "-",
-    "additionalPoints": "-",
-    "skills": "Darkness Blade, Stealth Veil",
     "description": "A cold, precise enforcer shaped by ambition and forbidden arts."
   },
   {
@@ -82,8 +70,6 @@
     "stage": "Archmage",
     "potential": "-",
     "combatPower": "-",
-    "additionalPoints": "-",
-    "skills": "Matter Weaving, Mana Transmutation",
     "description": "A revered mage connected to creation and destruction mana."
   },
   {
@@ -95,8 +81,6 @@
     "stage": "Aerial Knight",
     "potential": "-",
     "combatPower": "-",
-    "additionalPoints": "-",
-    "skills": "Storm Flight, Thunderstrike",
     "description": "A proud warrior who commands wind and lightning."
   }
 ]
