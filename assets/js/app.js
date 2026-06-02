@@ -56,32 +56,45 @@ function renderUpdates() {
 }
 
 function renderCharacters() {
-  characterGrid.innerHTML = state.characters.map(character => `
-    <article class="character-card">
-      <figure>
-        <img src="${character.image}" alt="${character.name}" loading="lazy" />
-      </figure>
-      <div>
-        <h3>${character.name}</h3>
-        <div class="character-meta">
-          <strong>Age</strong>
-          <span>${character.age}</span>
-          <strong>Rank</strong>
-          <span>${character.rank}</span>
-        </div>
-        <p class="character-bio">${character.bio}</p>
-        <div class="character-stats">
-          <strong>Abilities</strong>
-          <span>${(character.abilities || []).join(" • ")}</span>
-        </div>
-        <div class="character-relations">
-          <strong>Related</strong>
-          <span>${(character.relations || []).join(", ")}</span>
-        </div>
-      </div>
-    </article>
-  `).join("");
+characterGrid.innerHTML = state.characters.map(character => ` <article class="character-card">
+
+```
+  <figure>
+    <img src="${character.image}" alt="${character.name}" loading="lazy">
+  </figure>
+
+  <div class="character-info">
+
+    <h3>${character.name}</h3>
+
+    <p><strong>Status:</strong> ${character.status || "Alive"}</p>
+
+    <p><strong>Age:</strong> ${character.age || "-"}</p>
+
+    <p><strong>Level:</strong> ${character.level || "-"}</p>
+
+    <p><strong>Stage:</strong> ${character.stage || "-"}</p>
+
+    <p><strong>Potential:</strong> ${character.potential || "-"}</p>
+
+    <p><strong>Battle Power:</strong> ${character.combatPower || "-"}</p>
+
+    <p><strong>Additional Points:</strong> ${character.additionalPoints || "-"}</p>
+
+    <p><strong>Skills:</strong> ${character.skills || "None"}</p>
+
+    <p class="character-bio">
+      ${character.description || ""}
+    </p>
+
+  </div>
+
+</article>
+```
+
+`).join("");
 }
+
 
 function renderGallery() {
   galleryGrid.innerHTML = state.gallery.map(item => `
