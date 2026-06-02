@@ -377,20 +377,29 @@ font-weight:800;
 }
 
 .character-card figure{
-margin:0 0 16px;
-overflow:hidden;
-border-radius:12px;
-background:#111827;
-aspect-ratio:4/3;
+  margin:0 0 16px;
+  height:430px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-radius:12px;
+  background:#080b1f;
 }
 
-.character-card img,
+.character-card img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center top;
+}
+
 .gallery-card img{
-width:100%;
-height:100%;
-object-fit:cover;
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  border-radius:12px;
 }
-
 .discord-panel{
 display:flex;
 justify-content:space-between;
