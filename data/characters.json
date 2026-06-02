@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Nor Verner",
+    "age": "19",
+    "rank": "Adept",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+    "bio": "The protagonist caught between creation and destruction mana. A complex figure navigating politics and power.",
+    "abilities": ["Creation Mana", "Destruction Mana", "Adaptive Combat"],
+    "relations": ["Orlan", "Edora", "Klaus"]
+  },
+  {
+    "name": "Orlan",
+    "age": "24",
+    "rank": "High Scholar",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+    "bio": "A talented strategist and ally who understands the inner workings of the academy.",
+    "abilities": ["Tactical Insight", "Wind Control"],
+    "relations": ["Nor Verner", "Klaus"]
+  },
+  {
+    "name": "Edora",
+    "age": "22",
+    "rank": "Elite Guard",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+    "bio": "A fierce defender with strong ties to the empire's ruling council.",
+    "abilities": ["Earth Armor", "Shield Projection"],
+    "relations": ["Nor Verner"]
+  },
+  {
+    "name": "Chuck",
+    "age": "31",
+    "rank": "Commander",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+    "bio": "A battle-hardened commander who balances loyalty to the empire with a fascination for rare mana phenomena.",
+    "abilities": ["Reinforced Defense", "Mana Suppression"],
+    "relations": ["Roy", "Opus"]
+  },
+  {
+    "name": "Klaus",
+    "age": "28",
+    "rank": "Shadow Enforcer",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+    "bio": "A cold, precise enforcer whose allegiance is shaped by ambition and a deep knowledge of forbidden arts.",
+    "abilities": ["Darkness Blade", "Stealth Veil"],
+    "relations": ["Orlan", "Nor Verner"]
+  },
+  {
+    "name": "Roy",
+    "age": "27",
+    "rank": "Imperial Scout",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
+    "bio": "A sharp-eyed scout who maps the empire's borders and watches for unusual mana signatures.",
+    "abilities": ["Lightning Movement", "Aura Tracking"],
+    "relations": ["Chuck", "Icarus"]
+  },
+  {
+    "name": "Opus",
+    "age": "34",
+    "rank": "Archmage",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+    "bio": "A revered mage whose knowledge of creation and destruction mana makes him both a mentor and a feared advisor.",
+    "abilities": ["Matter Weaving", "Mana Transmutation"],
+    "relations": ["Chuck"]
+  },
+  {
+    "name": "Icarus",
+    "age": "21",
+    "rank": "Aerial Knight",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+    "bio": "A proud warrior who commands wind and lightning with bold flair, often challenging Nor's perspective.",
+    "abilities": ["Storm Flight", "Thunderstrike"],
+    "relations": ["Roy"]
+  }
+]
