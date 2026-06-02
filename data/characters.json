@@ -10,67 +10,96 @@
     "combatPower": "93,217,600",
     "skills": "None",
     "description": "The strongest, awakened by the System."
-  }
-]
-
+  },
   {
     "name": "Orlan Void",
-    "image": "Images/characters/Imagescharacters Orlan Void.png"
+    "image": "Images/characters/Imagescharacters Orlan Void.png",
+    "status": "Alive",
     "age": "50",
-    "Stage": "Lord",
+    "level": "-",
+    "stage": "Lord",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Unknown",
+    "description": "A powerful figure connected to Nor Verner."
   },
   {
     "name": "Edora Grey",
+    "image": "Images/characters/ImagescharactersEdora Grey.png",
+    "status": "Alive",
     "age": "47",
-    "rank": "Elite Guard",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
-    "bio": "A fierce defender with strong ties to the empire's ruling council.",
-    "abilities": ["Earth Armor", "Shield Projection"],
-    "relations": ["Nor Verner"]
+    "level": "-",
+    "stage": "Elite Guard",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Earth Armor, Shield Projection",
+    "description": "A fierce defender with strong ties to the empire's ruling council."
   },
   {
     "name": "Chuck",
+    "image": "Images/characters/67fa3b94-99df-442e-976c-06be0c58490c.png",
+    "status": "Alive",
     "age": "31",
-    "rank": "Commander",
-    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-    "bio": "A battle-hardened commander who balances loyalty to the empire with a fascination for rare mana phenomena.",
-    "abilities": ["Reinforced Defense", "Mana Suppression"],
-    "relations": ["Roy", "Opus"]
+    "level": "-",
+    "stage": "Commander",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Reinforced Defense, Mana Suppression",
+    "description": "A battle-hardened commander who balances loyalty to the empire with a fascination for rare mana phenomena."
   },
   {
     "name": "Klaus",
+    "image": "Images/characters/0d6cde92-aba4-4821-9671-b23ea688d554.png",
+    "status": "Alive",
     "age": "28",
-    "rank": "Shadow Enforcer",
-    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-    "bio": "A cold, precise enforcer whose allegiance is shaped by ambition and a deep knowledge of forbidden arts.",
-    "abilities": ["Darkness Blade", "Stealth Veil"],
-    "relations": ["Orlan", "Nor Verner"]
+    "level": "-",
+    "stage": "Shadow Enforcer",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Darkness Blade, Stealth Veil",
+    "description": "A cold, precise enforcer shaped by ambition and forbidden arts."
   },
   {
     "name": "Roy",
+    "image": "Images/characters/018cc8ff-8011-470a-a1c4-280baa8c950c.png",
+    "status": "Alive",
     "age": "27",
-    "rank": "Imperial Scout",
-    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-    "bio": "A sharp-eyed scout who maps the empire's borders and watches for unusual mana signatures.",
-    "abilities": ["Lightning Movement", "Aura Tracking"],
-    "relations": ["Chuck", "Icarus"]
+    "level": "-",
+    "stage": "Imperial Scout",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Lightning Movement, Aura Tracking",
+    "description": "A sharp-eyed scout who watches for unusual mana signatures."
   },
   {
     "name": "Opus",
+    "image": "Images/characters/d60dcd07-4aa9-4ac4-8293-7d30e22d330e.png",
+    "status": "Alive",
     "age": "34",
-    "rank": "Archmage",
-    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-    "bio": "A revered mage whose knowledge of creation and destruction mana makes him both a mentor and a feared advisor.",
-    "abilities": ["Matter Weaving", "Mana Transmutation"],
-    "relations": ["Chuck"]
+    "level": "-",
+    "stage": "Archmage",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Matter Weaving, Mana Transmutation",
+    "description": "A revered mage connected to creation and destruction mana."
   },
   {
     "name": "Icarus",
+    "image": "Images/characters/e19761ee-dda9-4a85-bdec-fc1953043453.png",
+    "status": "Alive",
     "age": "21",
-    "rank": "Aerial Knight",
-    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-    "bio": "A proud warrior who commands wind and lightning with bold flair, often challenging Nor's perspective.",
-    "abilities": ["Storm Flight", "Thunderstrike"],
-    "relations": ["Roy"]
+    "level": "-",
+    "stage": "Aerial Knight",
+    "potential": "-",
+    "combatPower": "-",
+    "additionalPoints": "-",
+    "skills": "Storm Flight, Thunderstrike",
+    "description": "A proud warrior who commands wind and lightning."
   }
 ]
