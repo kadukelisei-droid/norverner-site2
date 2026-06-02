@@ -460,3 +460,14 @@ h1 {
     align-items: stretch;
   }
 }
+.hero-content{
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.hero-cover img{
+    width:300px;
+    border-radius:15px;
+    box-shadow:0 0 30px rgba(0,0,0,.5);
+}
