@@ -92,7 +92,6 @@ function renderCharacters() {
           <p><strong>Stage:</strong> ${character.stage || character.rank || "-"}</p>
           <p><strong>Potential:</strong> ${character.potential || "-"}</p>
           <p><strong>Battle Power:</strong> ${character.combatPower || "-"}</p>
-          <p><strong>Additional Points:</strong> ${character.additionalPoints || "-"}</p>
           <p><strong>Skills:</strong> ${character.skills || "None"}</p>
         </div>
 
