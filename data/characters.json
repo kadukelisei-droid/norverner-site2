@@ -1,17 +1,18 @@
-```json
-{
-  "name": "Nor Verner",
-  "image": "Images/characters/Imagescharacters Nor Verner.png",
-  "status": "Alive",
-  "age": "17",
-  "level": "989",
-  "stage": "Supreme",
-  "potential": "∞",
-  "combatPower": "93,217,600",
-  "skills": "None",
-  "description": "A young man who accidentally killed Dark Heavens Overlord Rodon and awakened the System."
-}
-```
+[
+  {
+    "name": "Nor Verner",
+    "image": "Images/characters/Imagescharacters Nor Verner.png",
+    "status": "Alive",
+    "age": "17",
+    "level": "989",
+    "stage": "Supreme",
+    "potential": "∞",
+    "combatPower": "93,217,600",
+    "additionalPoints": "2,734,162",
+    "skills": "None",
+    "description": "The strongest existence awakened by the System."
+  }
+]
 
   {
     "name": "Orlan Void",
