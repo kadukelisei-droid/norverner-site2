@@ -461,71 +461,56 @@ h1 {
   }
 }
 .hero-content{
-    display:grid;
-    grid-template-columns:300px 1fr 260px;
-    gap:50px;
-    align-items:start;
-}
-
-.hero-cover img{
-    width:300px;
-    border-radius:15px;
-    box-shadow:0 0 30px rgba(0,0,0,.5);
-}
-.hero-cover img{
-    width:420px !important;
-    max-width:420px !important;
-    border-radius:18px;
-    box-shadow:0 0 45px rgba(139,92,246,.45);
-}
-
-.button.primary{
-    background:#7c3aed !important;
-    color:white !important;
-    font-size:18px !important;
-    font-weight:800 !important;
-    padding:18px 32px !important;
-    border-radius:16px !important;
-    box-shadow:0 0 30px rgba(124,58,237,.55);
-}
-
-.button.secondary{
-    color:white !important;
-    font-size:18px !important;
-    font-weight:800 !important;
-    padding:18px 32px !important;
-    border:1px solid rgba(255,255,255,.25) !important;
-    background:rgba(255,255,255,.06) !important;
-}
-.hero-content{
+    position:relative;
     display:grid !important;
     grid-template-columns:320px 1fr 260px !important;
     gap:60px !important;
-    align-items:start !important;
+    align-items:center !important;
 }
 
 .hero-cover{
     grid-column:1 !important;
 }
 
+.hero-cover img{
+    width:320px !important;
+    max-width:320px !important;
+    border-radius:18px !important;
+    display:block !important;
+}
+
 .hero-copy{
     grid-column:2 !important;
-    padding-top:40px !important;
+    padding-top:0 !important;
 }
 
 .hero-stats{
     grid-column:3 !important;
     width:260px !important;
-    padding-top:40px !important;
+    padding-top:0 !important;
 }
 
-.hero-cover img{
-    width:320px !important;
-    max-width:320px !important;
+.hero-actions{
+    display:flex !important;
+    gap:18px !important;
+    margin-top:30px !important;
 }
 
 .button.primary{
     background:#8b5cf6 !important;
     color:white !important;
-    opacity:1 !important;
+    font-weight:800 !important;
+    font-size:20px !important;
+    padding:18px 38px !important;
+    border-radius:14px !important;
+    box-shadow:0 0 30px rgba(139,92,246,.65) !important;
+}
+
+.button.secondary{
+    background:rgba(255,255,255,.08) !important;
+    color:white !important;
+    border:1px solid rgba(255,255,255,.25) !important;
+    font-size:20px !important;
+    padding:18px 38px !important;
+    border-radius:14px !important;
 }
