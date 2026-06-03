@@ -15,23 +15,40 @@ body{
   font-family:Arial,sans-serif;
 }
 
-.chapter-reader{
-  max-width:900px !important;
-  margin:60px auto !important;
-  padding:50px !important;
-  background:#0d1328 !important;
-  border-radius:22px !important;
-}
-
-.chapter-reader h1{
-  text-align:center !important;
-  font-size:52px !important;
-}
-
 .chapter-reader p{
-  font-size:22px !important;
-  line-height:2 !important;
+    font-size:22px !important;
+    line-height:2 !important;
 }
+
+.chapter-layout{
+    max-width:1400px !important;
+    margin:50px auto !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,850px) 260px !important;
+    gap:28px !important;
+    padding:0 20px !important;
+    align-items:start !important;
+}
+
+.chapter-reader{
+    margin:0 !important;
+    max-width:none !important;
+}
+
+.chapter-images{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:14px !important;
+    position:sticky !important;
+    top:20px !important;
+}
+
+.chapter-images img{
+    width:260px !important;
+    max-width:260px !important;
+    height:auto !important;
+}
+
 </style>
 
 <main class="chapter-layout">
@@ -335,9 +352,12 @@ body{
 <img src="../Chapter%201/22.png">
 
 </aside>
-  <div class="chapter-nav">
-    <a href="../index.html">← Back to Home</a>
-    <a href="#">Next Chapter →</a>
-  </div>
+
+<div class="chapter-nav">
+  <a href="../index.html">← Back to Home</a>
+  <a href="#">Next Chapter →</a>
+</div>
 
 </main>
+</body>
+</html>
