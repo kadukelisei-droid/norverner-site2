@@ -487,4 +487,29 @@ align-items:flex-start;
 flex-wrap:wrap;
 gap:12px;
 }
+.chapter-layout{
+  max-width:1500px;
+  margin:50px auto;
+  display:grid;
+  grid-template-columns:900px 380px;
+  gap:40px;
+  padding:0 20px;
+}
+
+.chapter-images{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.chapter-images img{
+  width:100%;
+  border-radius:16px;
+  box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+@media(max-width:1200px){
+  .chapter-layout{
+    grid-template-columns:1fr;
+  }
 }
