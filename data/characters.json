@@ -36,7 +36,7 @@
   },
   {
     "name": "Map",
-    "image": "Images/characters/map.png",
+    "image": "Images/characters/Map.png"
     "description": "The map of the continent Nor is currently on"
   },
   {
