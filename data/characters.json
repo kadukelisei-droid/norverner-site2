@@ -74,7 +74,7 @@
   },
   {
     "name": "Icarus Daitron",
-    "image": "Images/characters/characters/Imagescharacters Icarus Daitron.png",
+    "image": "Images/characters/Imagescharacters Icarus Daitron.png",
     "status": "Alive",
     "age": "860",
     "level": "285",
@@ -82,9 +82,9 @@
     "potential": "Emperor",
     "combatPower": "525,000",
     "description": "Icarus Daitron — powerful, slightly impulsive woman, unpredictable but never truly careless."
-  }
- {
-    "name": "RODON",
+  },
+  {
+    "name": "Rodon",
     "image": "Images/characters/ImagescharactersRodon.png",
     "status": "Dead",
     "age": "Unknown",
@@ -92,6 +92,6 @@
     "stage": "Overlord",
     "potential": "Unknown",
     "combatPower": "Unknown",
-    "description": "Rodon — legendary Overlord, killed by a stone thrown by Nor Verner.."
-  },
-  ]
+    "description": "Rodon — legendary Overlord, killed by a stone thrown by Nor Verner."
+  }
+]
