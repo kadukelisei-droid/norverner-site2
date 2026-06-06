@@ -131,3 +131,14 @@ async function init() {
 }
 
 init();
+document.addEventListener("click", function (e) {
+  const img = e.target.closest("img");
+  if (!img) return;
+
+  const overlay = document.createElement("div");
+  overlay.className = "image-lightbox";
+  overlay.innerHTML = `<img src="${img.src}" alt="">`;
+
+  overlay.addEventListener("click", () => overlay.remove());
+  document.body.appendChild(overlay);
+});
