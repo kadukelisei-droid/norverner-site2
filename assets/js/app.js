@@ -135,10 +135,34 @@ document.addEventListener("click", function (e) {
   const img = e.target.closest("img");
   if (!img) return;
 
-  const overlay = document.createElement("div");
-  overlay.className = "image-lightbox";
-  overlay.innerHTML = `<img src="${img.src}" alt="">`;
+  e.preventDefault();
+  e.stopPropagation();
 
+  const overlay = document.createElement("div");
+  overlay.style.position = "fixed";
+  overlay.style.inset = "0";
+  overlay.style.width = "100vw";
+  overlay.style.height = "100vh";
+  overlay.style.background = "rgba(0,0,0,0.94)";
+  overlay.style.display = "flex";
+  overlay.style.alignItems = "center";
+  overlay.style.justifyContent = "center";
+  overlay.style.zIndex = "999999999";
+  overlay.style.padding = "30px";
+  overlay.style.cursor = "zoom-out";
+
+  const bigImg = document.createElement("img");
+  bigImg.src = img.src;
+  bigImg.alt = img.alt || "";
+  bigImg.style.maxWidth = "95vw";
+  bigImg.style.maxHeight = "95vh";
+  bigImg.style.width = "auto";
+  bigImg.style.height = "auto";
+  bigImg.style.objectFit = "contain";
+  bigImg.style.borderRadius = "14px";
+
+  overlay.appendChild(bigImg);
   overlay.addEventListener("click", () => overlay.remove());
-document.documentElement.appendChild(overlay);
+
+  document.body.appendChild(overlay);
 });
