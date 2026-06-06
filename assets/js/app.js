@@ -85,15 +85,16 @@ function renderCharacters() {
       <div class="character-info">
         <h3>${character.name}</h3>
 
-        <div class="character-meta">
-          <p><strong>Status:</strong> ${character.status || "Alive"}</p>
-          <p><strong>Age:</strong> ${character.age || "-"}</p>
-          <p><strong>Level:</strong> ${character.level || "-"}</p>
-          <p><strong>Stage:</strong> ${character.stage || character.rank || "-"}</p>
-          <p><strong>Potential:</strong> ${character.potential || "-"}</p>
-          <p><strong>Battle Power:</strong> ${character.combatPower || "-"}</p>
-          <p><strong>Skills:</strong> ${character.skills || "None"}</p>
-        </div>
+${character.isMap ? "" : `
+<div class="character-meta">
+  <p><strong>Status:</strong> ${character.status || "Alive"}</p>
+  <p><strong>Age:</strong> ${character.age || "-"}</p>
+  <p><strong>Level:</strong> ${character.level || "-"}</p>
+  <p><strong>Stage:</strong> ${character.stage || character.rank || "-"}</p>
+  <p><strong>Potential:</strong> ${character.potential || "-"}</p>
+  <p><strong>Battle Power:</strong> ${character.combatPower || "-"}</p>
+</div>
+`}
 
         <p class="character-bio">
           ${character.description || character.bio || ""}
