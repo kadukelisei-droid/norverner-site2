@@ -140,5 +140,5 @@ document.addEventListener("click", function (e) {
   overlay.innerHTML = `<img src="${img.src}" alt="">`;
 
   overlay.addEventListener("click", () => overlay.remove());
-  document.body.appendChild(overlay);
+document.documentElement.appendChild(overlay);
 });
