@@ -7,9 +7,9 @@
   },
   {
     "title": "Main Character",
-    "Name": "Nor Verner",
-    "description": "A portrait of the novel's main hero.",
-    "image": "https://images.unsplash.com/photo-1518684079-6ab8f082e1d4?auto=format&fit=crop&w=800&q=80"
+    "Name": "Future Nor Verner",
+    "description": "A portrait of the novel's main hero from the future",
+    "image": "Images/characters/Future Nor Verner.jpeg"
   },
   {
     "title": "Chapter Illustration",
@@ -18,8 +18,8 @@
     "image": "https://images.unsplash.com/photo-1514492842253-0e5a0d61c30f?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "title": "Empire Panorama",
-    "category": "World Art",
+    "title": "Ravenport",
+    "category": "City",
     "description": "A sweeping view of the Miron Empire's capital city.",
     "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80"
   },
