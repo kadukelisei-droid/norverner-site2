@@ -83,4 +83,14 @@
     "combatPower": "525,000",
     "description": "Icarus Daitron — powerful, slightly impulsive woman, unpredictable but never truly careless."
   }
-]
+ {
+    "name": "RODON",
+    "image": "Images/characters/ImagescharactersRodon.png",
+    "status": "Dead",
+    "age": "Unknown",
+    "level": "890",
+    "stage": "Overlord",
+    "potential": "Unknown",
+    "combatPower": "Unknown",
+    "description": "Rodon — legendary Overlord, killed by a stone thrown by Nor Verner.."
+  },
