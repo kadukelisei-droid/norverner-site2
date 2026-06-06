@@ -29,26 +29,26 @@
     "status": "Alive",
     "age": "47",
     "level": "115",
-    "stage": "Elite Guard",
-    "potential": "Imperator",
+    "stage": "Lord",
+    "potential": "Emperor",
     "combatPower": "91 000",
     "description": "Captain of the Ravenport Guild Branch. Strict, elegant, and dependable."
   },
   {
-    "name": "Chuck",
+    "name": "Map",
     "image": "Images/characters/map.png",
-    "description": "A battle-hardened commander who balances loyalty to the empire with a fascination for rare mana phenomena."
+    "description": "The map of the continent Nor is currently on"
   },
   {
-    "name": "Klaus",
-    "image": "Images/characters/0d6cde92-aba4-4821-9671-b23ea688d554.png",
+    "name": "Klaus Miron",
+    "image": "Images/characters/Imagescharacters Klaus Miron.png",
     "status": "Alive",
     "age": "699",
-    "level": "-",
-    "stage": "Shadow Enforcer",
-    "potential": "-",
-    "combatPower": "-",
-    "description": "A cold, precise enforcer shaped by ambition and forbidden arts."
+    "level": "271",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "476,000",
+    "description": "Klaus Miron is the ruler of the Miron Empire — a calm, intelligent, and terrifyingly composed man whose presence alone is enough to silence an entire room."
   },
   {
     "name": "Chuck",
@@ -62,25 +62,25 @@
     "description": "Former elite cultivator of the Dormund Empire. Despite his advanced age, he remains an experienced fighter with exceptional combat instincts. After breaking through to Grand Master, his appearance became significantly younger."
   },
   {
-    "name": "Opus",
-    "image": "Images/characters/d60dcd07-4aa9-4ac4-8293-7d30e22d330e.png",
+    "name": "Opus Void",
+    "image": "Images/characters/Imagescharacters Opus Void.png",
     "status": "Alive",
-    "age": "34",
-    "level": "-",
-    "stage": "Archmage",
-    "potential": "-",
-    "combatPower": "-",
-    "description": "A revered mage connected to creation and destruction mana."
+    "age": "540",
+    "level": "267",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "465,000",
+    "description": "Opus Void is the rector of the Main Academy and one of the most respected figures on the continent."
   },
   {
-    "name": "Icarus",
-    "image": "Images/characters/e19761ee-dda9-4a85-bdec-fc1953043453.png",
+    "name": "Icarus Daitron",
+    "image": "Images/characters/characters/Imagescharacters Icarus Daitron.png",
     "status": "Alive",
-    "age": "21",
-    "level": "-",
-    "stage": "Aerial Knight",
-    "potential": "-",
-    "combatPower": "-",
-    "description": "A proud warrior who commands wind and lightning."
+    "age": "860",
+    "level": "285",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "525,000",
+    "description": "Icarus Daitron — powerful, slightly impulsive woman, unpredictable but never truly careless."
   }
 ]
