@@ -34,11 +34,11 @@
     "combatPower": "91 000",
     "description": "Captain of the Ravenport Guild Branch. Strict, elegant, and dependable."
   },
-  {
-    "name": "Map",
-    "image": "Images/characters/Map.png"
-    "description": "The map of the continent Nor is currently on"
-  },
+{
+  "name": "Map",
+  "image": "Images/characters/Map.png",
+  "description": "The map of the continent Nor is currently on"
+},
   {
     "name": "Klaus Miron",
     "image": "Images/characters/Imagescharacters Klaus Miron.png",
