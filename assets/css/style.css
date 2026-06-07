@@ -88,13 +88,10 @@ transform:translateY(-2px);
 /* Novel hero */
 
 .hero{
-position:relative;
-overflow:hidden;
-padding:46px 0 50px;
-background:
-radial-gradient(circle at 28% 20%, rgba(139,92,246,.48), transparent 34%),
-radial-gradient(circle at 72% 20%, rgba(49,85,231,.22), transparent 32%),
-linear-gradient(135deg,#130b27 0%,#080c1b 52%,#050510 100%);
+  position:relative;
+  overflow:hidden;
+  padding:0 0 50px;
+  background:#050510;
 }
 
 .hero::before{
