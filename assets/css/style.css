@@ -53,19 +53,37 @@ justify-content:space-between;
 }
 
 .brand{
-font-weight:800;
+font-size:22px;
+font-weight:900;
 letter-spacing:2px;
 color:#fff;
+text-shadow:0 0 18px rgba(139,92,246,.6);
 }
-
 .nav-links{
 display:flex;
-gap:22px;
-font-size:14px;
-color:rgba(255,255,255,.72);
+gap:10px;
+align-items:center;
 }
 
-.nav-links a:hover
+.nav-links a{
+color:#d8d8ff;
+font-size:14px;
+font-weight:700;
+padding:10px 16px;
+border-radius:12px;
+transition:all .25s ease;
+}
+
+.nav-links a:hover{
+color:#fff;
+background:linear-gradient(
+135deg,
+#8b5cf6,
+#3155e7
+);
+box-shadow:0 0 18px rgba(139,92,246,.45);
+transform:translateY(-2px);
+}
 
 /* Novel hero */
 
