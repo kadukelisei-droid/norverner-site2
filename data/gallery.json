@@ -14,19 +14,19 @@
   {
     "title": "Chapter Illustration",
     "category": "Chapter Illustrations",
-    "description": "A scene of the academy's first duel.",
-    "image": "https://images.unsplash.com/photo-1514492842253-0e5a0d61c30f?auto=format&fit=crop&w=800&q=80"
+    "description": "The duel scene between Orlan and Edora.",
+    "image": "Images/characters/e19761ee-dda9-4a85-bdec-fc1953043453.png"
   },
   {
     "title": "Ravenport",
-    "category": "City",
+    "category": "City Illustrations",
     "description": "Ravenport is one of the main ports of the Miron Empire — a large coastal city filled with ships, merchants, guild members, and travelers from across the world.",
     "image": "Images/characters/RavenPort.png"
   },
   {
-    "title": "Academy Grounds",
-    "category": "World Art",
-    "description": "The academy courtyard where destiny first awakened.",
-    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80"
+    "title": "Academy Aladen",
+    "category": "World Illustrations",
+    "description": "The strongest and most influential academy on the continent.",
+    "image": "Images/characters/Aladen Academy.png"
   }
 ]
