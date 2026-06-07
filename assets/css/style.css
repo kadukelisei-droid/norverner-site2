@@ -90,8 +90,10 @@ transform:translateY(-2px);
 .hero{
   position:relative;
   overflow:hidden;
-  padding:0 0 50px;
-  background:#050510;
+  padding:46px 0 50px;
+  background:
+  radial-gradient(circle at center, rgba(139,92,246,.08), transparent 55%),
+  #050510;
 }
 
 .hero::before{
