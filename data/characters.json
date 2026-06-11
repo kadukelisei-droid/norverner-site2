@@ -95,4 +95,15 @@
     "combatPower": "Unknown",
     "description": "Rodon — legendary Overlord, killed by a stone thrown by Nor Verner."
   }
+    {
+    "name": "Roy",
+    "image": "Images/characters/Roy.png",
+    "status": "Alive",
+    "age": "419",
+    "level": "249",
+    "stage": "Great King",
+    "potential": "Emperor",
+    "combatPower": "317 000",
+    "description": "Roy — The right hand of Emperor Klaus, hidden in the darkness."
+  }
 ]
