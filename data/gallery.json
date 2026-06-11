@@ -5,12 +5,12 @@
     "description": "The official cover art",
     "image": "Images/cover.png"
   },
-  {
-    "title": "Main Character",
-    "Name": "Future Nor Verner",
-    "description": "A portrait of the novel's main hero from the future",
-    "image": "Images/characters/Future Nor Verner.jpeg"
-  },
+ {
+  "title": "Future Nor Verner",
+  "category": "characters",
+  "description": "A portrait of the novel's main hero from the future.",
+  "image": "Images/characters/Future Nor Verner.jpeg"
+},
   {
     "title": "Chapter Illustration",
     "category": "Chapter Illustrations",
