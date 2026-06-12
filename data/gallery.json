@@ -19,13 +19,13 @@
   },
   {
     "title": "Ravenport",
-    "category": "City Illustrations",
+"category": "places"
     "description": "Ravenport is one of the main ports of the Miron Empire — a large coastal city filled with ships, merchants, guild members, and travelers from across the world.",
     "image": "Images/characters/RavenPort.png"
   },
   {
     "title": "Academy Aladen",
-    "category": "World Illustrations",
+ "category": "places"
     "description": "The strongest and most influential academy on the continent.",
     "image": "Images/characters/Aladen Academy.png"
   },
@@ -67,6 +67,7 @@
   },
 {
   "name": "Map",
+  "category": "places",
   "image": "Images/characters/Map.png",
   "isMap": true,
   "description": "The map of the continent Nor is currently on"
