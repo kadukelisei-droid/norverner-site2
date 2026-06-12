@@ -49,3 +49,18 @@ buttons.forEach(btn => {
 });
 
 loadGallery();
+
+document.addEventListener("click", (e) => {
+  if (!e.target.matches(".gallery-card img")) return;
+
+  const overlay = document.createElement("div");
+  overlay.className = "image-lightbox";
+
+  overlay.innerHTML = `<img src="${e.target.src}" alt="">`;
+
+  overlay.addEventListener("click", () => {
+    overlay.remove();
+  });
+
+  document.body.appendChild(overlay);
+});
