@@ -593,6 +593,31 @@ display:none !important;
   color:#fff;
   box-shadow:0 0 18px rgba(139,92,246,.4);
 }
+.gallery-card img{
+  cursor:zoom-in;
+}
+
+.image-lightbox{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.92);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:999999;
+  padding:30px;
+  cursor:zoom-out;
+}
+
+.image-lightbox img{
+  max-width:95vw;
+  max-height:95vh;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  border-radius:14px;
+  box-shadow:0 0 50px rgba(0,0,0,.6);
+}
 
 @media(max-width:900px){
   .gallery-grid{
