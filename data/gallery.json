@@ -17,18 +17,18 @@
     "description": "The duel scene between Orlan and Edora.",
     "image": "Images/characters/e19761ee-dda9-4a85-bdec-fc1953043453.png"
   },
-  {
-    "title": "Ravenport",
-"category": "places"
-    "description": "Ravenport is one of the main ports of the Miron Empire — a large coastal city filled with ships, merchants, guild members, and travelers from across the world.",
-    "image": "Images/characters/RavenPort.png"
-  },
-  {
-    "title": "Academy Aladen",
- "category": "places"
-    "description": "The strongest and most influential academy on the continent.",
-    "image": "Images/characters/Aladen Academy.png"
-  },
+{
+  "title": "Ravenport",
+  "category": "places",
+  "description": "Ravenport is one of the main ports of the Miron Empire — a large coastal city filled with ships, merchants, guild members, and travelers from across the world.",
+  "image": "Images/characters/RavenPort.png"
+},
+{
+  "title": "Academy Aladen",
+  "category": "places",
+  "description": "The strongest and most influential academy on the continent.",
+  "image": "Images/characters/Aladen Academy.png"
+},
   
   {
     "name": "Nor Verner",
