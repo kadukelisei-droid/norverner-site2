@@ -4,9 +4,14 @@ const buttons = document.querySelectorAll(".tab-btn");
 let galleryItems = [];
 
 async function loadGallery() {
-  const res = await fetch("data/gallery.json?v=20");
-  galleryItems = await res.json();
-  renderGallery("all");
+  try {
+    const res = await fetch("data/gallery.json?v=100");
+    galleryItems = await res.json();
+    renderGallery("all");
+  } catch (error) {
+    galleryGrid.innerHTML = "<p>Gallery failed to load.</p>";
+    console.error(error);
+  }
 }
 
 function renderGallery(category) {
