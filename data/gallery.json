@@ -28,5 +28,113 @@
     "category": "World Illustrations",
     "description": "The strongest and most influential academy on the continent.",
     "image": "Images/characters/Aladen Academy.png"
+  },
+  
+  {
+    "name": "Nor Verner",
+    "image": "Images/characters/Imagescharacters Nor Verner.png",
+    "status": "Alive",
+    "age": "17",
+    "level": "989",
+    "stage": "Supreme",
+    "potential": "∞",
+    "combatPower": "93,217,600",
+    "skills": "None",
+    "description": "The strongest, awakened by the System."
+  },
+  {
+    "name": "Orlan Void",
+    "image": "Images/characters/Imagescharacters Orlan Void.png",
+    "status": "Alive",
+    "age": "50",
+    "level": "101",
+    "stage": "Lord",
+    "potential": "Great King",
+    "combatPower": "79 000",
+    "skills": "Unknown",
+    "description": "Vice-Captain of the Ravenport Guild Branch and a relative of Opus Void. Easygoing and humorous on the surface, but far more intelligent and observant than most people realize."
+  },
+  {
+    "name": "Edora Grey",
+    "image": "Images/characters/ImagescharactersEdora Grey.png",
+    "status": "Alive",
+    "age": "47",
+    "level": "115",
+    "stage": "Lord",
+    "potential": "Emperor",
+    "combatPower": "91 000",
+    "description": "Captain of the Ravenport Guild Branch. Strict, elegant, and dependable."
+  },
+{
+  "name": "Map",
+  "image": "Images/characters/Map.png",
+  "isMap": true,
+  "description": "The map of the continent Nor is currently on"
+},
+  {
+    "name": "Klaus Miron",
+    "image": "Images/characters/Imagescharacters Klaus Miron.png",
+    "status": "Alive",
+    "age": "699",
+    "level": "271",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "476,000",
+    "description": "Klaus Miron is the ruler of the Miron Empire — a calm, intelligent, and terrifyingly composed man whose presence alone is enough to silence an entire room."
+  },
+  {
+    "name": "Chuck",
+    "image": "Images/characters/chuck.png",
+    "status": "Alive",
+    "age": "98",
+    "level": "73",
+    "stage": "Grand Master",
+    "potential": "Great King",
+    "combatPower": "34 500",
+    "description": "Former elite cultivator of the Dormund Empire. Despite his advanced age, he remains an experienced fighter with exceptional combat instincts. After breaking through to Grand Master, his appearance became significantly younger."
+  },
+  {
+    "name": "Opus Void",
+    "image": "Images/characters/Imagescharacters Opus Void.png",
+    "status": "Alive",
+    "age": "540",
+    "level": "267",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "465,000",
+    "description": "Opus Void is the rector of the Main Academy and one of the most respected figures on the continent."
+  },
+  {
+    "name": "Icarus Daitron",
+    "image": "Images/characters/Imagescharacters Icarus Daitron.png",
+    "status": "Alive",
+    "age": "860",
+    "level": "285",
+    "stage": "Emperor",
+    "potential": "Emperor",
+    "combatPower": "525,000",
+    "description": "Icarus Daitron — powerful, slightly impulsive woman, unpredictable but never truly careless."
+  },
+ {
+    "name": "Rodon",
+    "image": "Images/characters/ImagescharactersRodon.png",
+    "status": "Dead",
+    "age": "Unknown",
+    "level": "890",
+    "stage": "Overlord",
+    "potential": "Unknown",
+    "combatPower": "Unknown",
+    "description": "Rodon — legendary Overlord, killed by a stone thrown by Nor Verner."
+  },
+  {
+    "name": "Roy",
+    "image": "Images/characters/Roy.png",
+    "status": "Alive",
+    "age": "419",
+    "level": "249",
+    "stage": "Great King",
+    "potential": "Emperor",
+    "combatPower": "317 000",
+    "description": "Roy — The right hand of Emperor Klaus, hidden in the darkness."
   }
 ]
