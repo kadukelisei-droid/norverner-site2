@@ -618,7 +618,23 @@ display:none !important;
   border-radius:14px;
   box-shadow:0 0 50px rgba(0,0,0,.6);
 }
+.comments-section{
+  max-width:900px;
+  margin:60px auto;
+  padding:30px;
+  border-radius:20px;
+  background:linear-gradient(
+    180deg,
+    rgba(16,22,44,.96),
+    rgba(10,13,28,.96)
+  );
+  border:1px solid rgba(255,255,255,.08);
+}
 
+.comments-section h2{
+  color:#fff;
+  margin-bottom:20px;
+}
 @media(max-width:900px){
   .gallery-grid{
     grid-template-columns:1fr !important;
