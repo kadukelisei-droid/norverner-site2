@@ -25,8 +25,8 @@
     "published": "2026-06-09",
     "words": 1146,
     "link": "Chapters/chapter-3.html"
-  }
-  {
+  },
+ {
   "id": 4,
   "title": "Greymoor Guild",
   "description": "Nor meets Edora and Orlan at the entrance of Greymoor Guild.",
@@ -34,5 +34,14 @@
   "published": "2026-06-14",
   "words": 1497,
   "link": "Chapters/chapter-4.html"
+},
+{
+  "id": 5,
+  "title": "Greedy Master",
+  "description": "Nor meets the eccentric Master Chuck Loyn and hires him as a teacher.",
+  "excerpt": "A legendary Master agrees to teach Nor... after spotting two gold coins.",
+  "published": "2026-06-15",
+  "words": 930,
+  "link": "Chapters/chapter-5.html"
 }
 ]
