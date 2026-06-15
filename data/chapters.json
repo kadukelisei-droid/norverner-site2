@@ -2,8 +2,6 @@
   {
     "id": 1,
     "title": "Chapter 1: I Became The Strongest In One Day",
-    "description": "Nor Verner accidentally kills Dark Heavens Overlord Rodon and activates the System.",
-    "excerpt": "A level 6 throws a rock and kills a level 890 overlord.",
     "published": "2026-06-02",
     "words": 1062,
     "link": "Chapters/chapter-1.html"
@@ -11,8 +9,6 @@
   {
     "id": 2,
     "title": "Chapter 2: Home",
-    "description": "After awakening, Nor returns home and discovers the changes in his body.",
-    "excerpt": "Nor finally returns home...",
     "published": "2026-06-07",
     "words": 1164,
     "link": "Chapters/chapter-2.html"
@@ -20,8 +16,6 @@
   {
     "id": 3,
     "title": "Chapter 3: Ravenport",
-    "description": "Nor reaches Ravenport and discovers he can see other people's status windows.",
-    "excerpt": "After forty minutes of walking, Nor began to notice the signs that he was getting closer to the city.",
     "published": "2026-06-09",
     "words": 1146,
     "link": "Chapters/chapter-3.html"
@@ -29,8 +23,6 @@
  {
   "id": 4,
   "title": "Chapter 4: Greymoor Guild",
-  "description": "Nor meets Edora and Orlan at the entrance of Greymoor Guild.",
-  "excerpt": "A strange collision at the guild entrance introduces Nor to two powerful figures.",
   "published": "2026-06-14",
   "words": 1497,
   "link": "Chapters/chapter-4.html"
@@ -38,8 +30,6 @@
 {
   "id": 5,
   "title": "Chapter 5: Greedy Master",
-  "description": "Nor meets the eccentric Master Chuck Loyn and hires him as a teacher.",
-  "excerpt": "A legendary Master agrees to teach Nor... after spotting two gold coins.",
   "published": "2026-06-15",
   "words": 930,
   "link": "Chapters/chapter-5.html"
